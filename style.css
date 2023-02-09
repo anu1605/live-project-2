@@ -92,6 +92,8 @@ img[alt=logo]{
     width: 5em;
   }
   .button-small{
+    padding: 0.2rem 0;
+    height: 100%;
     width: 8em;
   }
 }
