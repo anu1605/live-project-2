@@ -77,11 +77,15 @@ img[alt=logo]{
 @media screen and (min-width:648px) {
   .navbar{
     flex-direction: row;
-    width: 100%;
   }
   .list-item , .button-small{
     font-size: 1.2vw;
   }
+
+  .list-item{
+    width: 15vw;
+  }
+ 
   img[alt=logo] {
     width: 5em;
   }
@@ -105,20 +109,24 @@ div.hero{
   text-align: center;
   font-size: 10vmin;
 }
-@media screen and (min-width:500px) {
+@media screen and (min-width:498px) {
   .hero-heading{
-    font-size: 3em;
+    font-size: 2.5em;
     width: 80%;
     word-spacing: 0.2ch;
   }
 }
-@media screen and (min-width:700px) {
+@media screen and (min-width:640px) {
   .hero-heading{
-    font-size: 14vmin;
+    font-size: 3em;
     width: 80vw;
   }
 }
-
+@media screen and (min-width:710px) {
+  .hero-heading{
+    font-size: 14vh;
+  }
+}
 .button-large{
   width: 30vh;
   height: 7vh;
@@ -126,4 +134,19 @@ div.hero{
   color: white;
   background-color: rgba(255,80,95,255);
   margin-top: 1rem;
+  position: relative;
+}
+
+
+img[alt=bottom-logo]{
+  width: 12vmax;
+  position: absolute;
+  bottom: 0.5cm;
+  right:  0.5cm;
+}
+@media screen and (min-width:668px) {
+  img[alt=bottom-logo]{
+    width: 5em;
+
+  }
 }
