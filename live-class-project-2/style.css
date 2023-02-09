@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  background-image: url(/live-class-project-2/assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 130vw 100vh;
+  background-color: transparent;
+}
+@media screen and (min-width:600px) {
+  body{
+    background-size: 100% 110vh;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 768px) {
+  body{
+    background-size: 100% 128vh;
+  }
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  height: 100vh;
+  background-color: rgba(53,57,74,0.7);
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar{
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img[alt=logo]{
+  width: 8rem;
+}
+.list{
+  margin: 1rem 1rem;
+  list-style: none;
+  color: rgba(255,194,51,255);
+}
+
+@media screen and (min-width:368px) {
+  .list{
+    display: flex;
+    flex-direction: row;
+  }
+}
+.list-item{
+  text-align: center;
+  width: 30vmin;
+  margin: 0.5rem;
+}
+
+.list-item , .button-small{
+  font-size: 2vh;
+}
+
+.button-small{
+  border: none;
+  width: 6rem;
+  height: 1.5rem;
+  color: white;
+  background-color: rgba(255,80,95,255);
+}
+.list-item , .button-small , img[alt=logo]{
+  width: 15vh;
+}
+@media screen and (min-width:648px) {
+  .navbar{
+    flex-direction: row;
+    width: 100%;
+  }
+  .list-item , .button-small{
+    font-size: 1.2vw;
+  }
+  img[alt=logo] {
+    width: 5em;
+  }
+  .button-small{
+    width: 8em;
+  }
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+div.hero{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-heading{
+  color: rgba(255,194,51,255);
+  text-align: center;
+  font-size: 10vmin;
+}
+@media screen and (min-width:500px) {
+  .hero-heading{
+    font-size: 3em;
+    width: 80%;
+    word-spacing: 0.2ch;
+  }
+}
+@media screen and (min-width:700px) {
+  .hero-heading{
+    font-size: 14vmin;
+    width: 80vw;
+  }
+}
+
+.button-large{
+  width: 30vh;
+  height: 7vh;
+  border: none;
+  color: white;
+  background-color: rgba(255,80,95,255);
+  margin-top: 1rem;
+}
