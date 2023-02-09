@@ -7,20 +7,10 @@
 body{
   background-image: url(/live-class-project-2/assets/pexels-maxyne-barcel-10402282\ 1.png);
   background-repeat: no-repeat;
-  background-size: 130vw 100vh;
+  background-size: 100vw 100vh;
   background-color: transparent;
 }
-@media screen and (min-width:600px) {
-  body{
-    background-size: 100% 110vh;
-    overflow: hidden;
-  }
-}
-@media screen and (min-width: 768px) {
-  body{
-    background-size: 100% 128vh;
-  }
-}
+
 .container{
   display: flex;
   flex-direction: column;
