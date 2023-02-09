@@ -33,8 +33,10 @@ body{
 /* ---------- NAVBAR ------------ */
 /* ------------------------------ */
 .navbar{
+  width: 100vw;
   box-sizing: content-box;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -72,18 +74,18 @@ img[alt=logo]{
   background-color: rgba(255,80,95,255);
 }
 .list-item , .button-small , img[alt=logo]{
-  width: 15vh;
+  width: 18vmin;
 }
 @media screen and (min-width:648px) {
   .navbar{
     flex-direction: row;
   }
   .list-item , .button-small{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
 
   .list-item{
-    width: 15vw;
+    width: 14vw;
   }
  
   img[alt=logo] {
@@ -93,6 +95,7 @@ img[alt=logo]{
     width: 8em;
   }
 }
+
 
 /* ------------------------------ */
 /* ---------- HERO ------------ */
@@ -124,7 +127,7 @@ div.hero{
 }
 @media screen and (min-width:710px) {
   .hero-heading{
-    font-size: 14vh;
+    font-size: 14vmin;
   }
 }
 .button-large{
@@ -139,10 +142,10 @@ div.hero{
 
 
 img[alt=bottom-logo]{
-  width: 12vmax;
+  width: 5em;
   position: absolute;
   bottom: 0.5cm;
-  right:  0.5cm;
+  right:  1.5cm;
 }
 @media screen and (min-width:668px) {
   img[alt=bottom-logo]{
